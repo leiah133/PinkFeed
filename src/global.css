@@ -1,0 +1,32 @@
+:root{
+  --violeta200: #e8b7e8;
+  --violeta600:#d6a5d6;
+
+  --roxo900:#200020;
+  --roxo800:#331436;
+  --roxo700: #390039;
+  --roxo600: #7a1745;
+
+  --pink600: #db91a0;
+  --pink400: #fdc8d3;
+  --pink200: #ffe2e2;
+
+  --white: #fff;
+  --error: #f75a68;
+
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: var(--roxo900);
+  color: var(--pink200);
+  -webkit-font-smoothing: antialiased;
+}
+body, input, textarea, button{
+  font-family: 'Roboto', sans-serif ;
+  font-weight: 400;
+  font-size: 1rem;
+}
